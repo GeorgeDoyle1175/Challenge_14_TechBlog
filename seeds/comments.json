@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "comment": "Great post!",
+      "date_created": "2023-04-07T12:30:00.000Z",
+      "user_id": 2,
+      "blogpost_id": 1
+    },
+    {
+      "id": 2,
+      "comment": "I completely agree!",
+      "date_created": "2023-04-07T13:00:00.000Z",
+      "user_id": 1,
+      "blogpost_id": 1
+    },
+    {
+      "id": 3,
+      "comment": "Looking forward to your next post!",
+      "date_created": "2023-04-08T12:30:00.000Z",
+      "user_id": 3,
+      "blogpost_id": 1
+    }
+  ]

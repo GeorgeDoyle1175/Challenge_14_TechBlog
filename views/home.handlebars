@@ -1,0 +1,26 @@
+{{!-- Extend the main layout --}}
+{{#extend 'layouts/main'}}
+
+{{!-- Define the section for the main content --}}
+{{#section 'content'}}
+  <div class="container">
+    <h1>Welcome to our Blog!</h1>
+
+    {{!-- Iterate over all blog posts --}}
+    {{#each blogposts}}
+      <div class="card my-3">
+        <div class="card-body">
+          <h2 class="card-title">{{title}}</h2>
+          <p class="card-text">{{content}}</p>
+          <small class="text-muted">Written by {{User.name}} on {{createdAt}}</small>
+          <a href="/blogpost/{{id}}" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{/section}}
+
+{{!-- Define the section for additional scripts --}}
+{{#section 'scripts'}}
+  {{!-- Add any additional scripts here --}}
+{{/section}}
