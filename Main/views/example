@@ -1,0 +1,9 @@
+views/
+├── layouts/
+│   └── main.handlebars
+├── partials/
+│   ├── header.handlebars
+│   └── footer.handlebars
+├── home.handlebars
+├── login.handlebars
+└── signup.handlebars

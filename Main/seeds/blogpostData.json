@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "My First Blog Post",
+      "contents": "This is my first blog post. I'm so excited to get started!",
+      "date_created": "2023-04-06T12:00:00.000Z",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "My Second Blog Post",
+      "contents": "This is my second blog post. I'm still excited!",
+      "date_created": "2023-04-07T12:00:00.000Z",
+      "user_id": 2
+    },
+    {
+      "id": 3,
+      "title": "My Third Blog Post",
+      "contents": "This is my third blog post. I'm starting to run out of things to say...",
+      "date_created": "2023-04-08T12:00:00.000Z",
+      "user_id": 3
+    }
+  ]
